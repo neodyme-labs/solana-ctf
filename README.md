@@ -7,16 +7,16 @@ This is a repository of backups of Solana CTF challenges.
 | Challenge | Author | Link |
 | --- | --- | --- |
 | [neodyme workshop level 1](neodyme-breakpoint-workshop/level1/) | neodyme | https://workshop.neodyme.io/level1.html |
-| neodyme workshop level 2 | neodyme | https://workshop.neodyme.io/level2.html |
-| neodyme workshop level 3 | neodyme | https://workshop.neodyme.io/level3.html |
-| neodyme workshop level 4 | neodyme | https://workshop.neodyme.io/level4.html |
-| secret store | localo | https://ctftime.org/task/17180 | 
-| legit-bank | CherryWorm, bennofs | https://ctftime.org/task/17188 |
-| bugchain | CherryWorm | https://ctftime.org/task/17160 | 
-| solfire | NotDeGhost | https://play.picoctf.org/practice/challenge/302?originalEvent=70&page=6 | 
-| darksols | embe221ed | https://2022.justctf.team/challenges/40 | 
-| halbornctf solana | halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
-| moar-horse-5 | kfb | https://ctf.tjctf.org/challs |
+| [neodyme workshop level 2](neodyme-breakpoint-workshop/level2/) | neodyme | https://workshop.neodyme.io/level2.html |
+| [neodyme workshop level 3](neodyme-breakpoint-workshop/level3/) | neodyme | https://workshop.neodyme.io/level3.html |
+| [neodyme workshop level 4](neodyme-breakpoint-workshop/level4/) | neodyme | https://workshop.neodyme.io/level4.html |
+| [secret store](allesctf21/secret-store/) | localo | https://ctftime.org/task/17180 | 
+| [legit-bank](allesctf21/legit-bank/) | CherryWorm, bennofs | https://ctftime.org/task/17188 |
+| [bugchain](allesctf21/bugchain/) | CherryWorm | https://ctftime.org/task/17160 | 
+| [solfire](solfire/) | NotDeGhost | https://play.picoctf.org/practice/challenge/302?originalEvent=70&page=6 | 
+| [darksols](darksols/) | embe221ed | https://2022.justctf.team/challenges/40 | 
+| [halbornctf solana](HalbornCTF_Rust_Solana/) | halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
+| [moar-horse-5](moar-horse-5/) | kfb | https://ctf.tjctf.org/challs |
 
 
 
