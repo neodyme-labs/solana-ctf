@@ -1,0 +1,16 @@
+[package]
+name = "level4"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+solana-program = "1.7.17"
+vendored-spl-token = { path = "./vendored-spl-token-3.1.0", features = ["no-entrypoint"] }
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []

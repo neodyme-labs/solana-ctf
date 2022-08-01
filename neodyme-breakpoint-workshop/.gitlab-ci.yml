@@ -1,0 +1,24 @@
+image: rust:1.62-alpine
+
+stages:
+  - deploy
+
+deploy_job:
+  stage: deploy
+
+  before_script:
+    - apk update && apk add openssh-client rsync musl-dev
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | base64 -d | ssh-add -
+
+  script:
+    - cargo install mdbook
+    - mdbook build --dest-dir public
+    - rsync -e "ssh -o StrictHostKeyChecking=no"
+      -atv
+      --delete
+      --progress
+      public/ $SSH_USER@$SSH_HOST:/var/lib/caddy/live/websites/workshop.neodyme.io
+
+  only:
+    - main

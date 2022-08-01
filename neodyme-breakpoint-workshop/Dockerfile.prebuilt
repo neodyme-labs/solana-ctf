@@ -1,0 +1,7 @@
+FROM breakpoint:latest
+
+RUN cargo build-bpf
+RUN cargo build --workspace --bins
+
+# cargo run --bin <contract>
+CMD while :; do :; done & kill -STOP $! && wait $!

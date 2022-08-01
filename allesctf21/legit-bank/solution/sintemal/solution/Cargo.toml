@@ -1,0 +1,22 @@
+[package]
+name = "solution"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13.0"
+solana-client = "1.7.10"
+solana-sdk = "1.7.10"
+spl-token = "*"
+spl-associated-token-account = "1.0.3"
+borsh = "0.9.1"
+bank-setup = { path = "../../../deploy/setup/" }
+
+[dependencies.bank-program]
+features = ["no-entrypoint"]
+path = "../../../deploy/program/"
+
+[target.x86_64-unknown-linux-gnu]
+linker = "x86_64-linux-gnu-gcc"

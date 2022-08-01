@@ -1,0 +1,2 @@
+[workspace]
+members = ["bank_initializer", "solution"]

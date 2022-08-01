@@ -1,0 +1,17 @@
+[package]
+name = "exploit-program"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "1.7.10"
+spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
+
+[lib]
+name = "exploit"
+crate-type = ["cdylib", "lib"]

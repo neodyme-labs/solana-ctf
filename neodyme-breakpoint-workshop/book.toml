@@ -1,0 +1,13 @@
+[book]
+authors = ["Neodyme"]
+language = "en"
+multilingual = false
+src = "docs"
+title = "Solana Security Workshop"
+
+[build]
+build-dir = "target/book"
+
+[output.html]
+default-theme = "navy"
+git-repository-url = "https://github.com/neodyme-labs/neodyme-breakpoint-workshop"
