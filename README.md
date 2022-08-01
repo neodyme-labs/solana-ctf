@@ -6,7 +6,7 @@ This is a repository of backups of Solana CTF challenges.
 ## Challenges
 | Challenge | Author | Link |
 | --- | --- | --- |
-| neodyme workshop level 1 | neodyme | https://workshop.neodyme.io/level1.html |
+| [neodyme workshop level 1](neodyme-breakpoint-workshop/level1/) | neodyme | https://workshop.neodyme.io/level1.html |
 | neodyme workshop level 2 | neodyme | https://workshop.neodyme.io/level2.html |
 | neodyme workshop level 3 | neodyme | https://workshop.neodyme.io/level3.html |
 | neodyme workshop level 4 | neodyme | https://workshop.neodyme.io/level4.html |
@@ -15,7 +15,6 @@ This is a repository of backups of Solana CTF challenges.
 | bugchain | CherryWorm | https://ctftime.org/task/17160 | 
 | solfire | NotDeGhost | https://play.picoctf.org/practice/challenge/302?originalEvent=70&page=6 | 
 | darksols | embe221ed | https://2022.justctf.team/challenges/40 | 
-| halbornctf solana | halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
 | halbornctf solana | halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
 | moar-horse-5 | kfb | https://ctf.tjctf.org/challs |
 
