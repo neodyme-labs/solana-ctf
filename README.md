@@ -15,7 +15,7 @@ This is a repository of backups of Solana CTF challenges.
 | [bugchain](allesctf21/bugchain/) | CherryWorm | https://ctftime.org/task/17160 | 
 | [solfire](solfire/) | NotDeGhost | https://play.picoctf.org/practice/challenge/302?originalEvent=70&page=6 | 
 | [darksols](darksols/) | embe221ed | https://2022.justctf.team/challenges/40 | 
-| [halbornctf solana](HalbornCTF_Rust_Solana/) | halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
+| [halbornctf solana](HalbornCTF_Rust_Solana/) | Halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
 | [moar-horse-5](moar-horse-5/) | kfb | https://ctf.tjctf.org/challs |
 
 
