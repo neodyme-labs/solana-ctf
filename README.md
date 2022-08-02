@@ -1,6 +1,8 @@
 # 🚩 Solana CTF Challenges 🚩
 
-This is a repository of backups of Solana CTF challenges.
+This is a repository of backups of Solana CTF challenges. 
+The challenges were created by different authors and belong to the respective authors as listed below.
+If an author would like their challenge to be removed from this repository, please contact us.
 
 
 ## Challenges
@@ -44,3 +46,5 @@ containers that allow you to easily instantiate and interact with them.
 
 ### A Solana Challenge that I know isn't listed here!
 Please create a Pull Request, or an Issue to add the missing Challenge!
+
+### 
