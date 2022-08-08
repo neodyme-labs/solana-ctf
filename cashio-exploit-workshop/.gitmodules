@@ -1,0 +1,3 @@
+[submodule "cashio"]
+	path = cashio
+	url = https://github.com/cashioapp/cashio.git

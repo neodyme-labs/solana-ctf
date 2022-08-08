@@ -19,6 +19,7 @@ If an author would like their challenge to be removed from this repository, plea
 | [darksols](darksols/) | embe221ed | https://2022.justctf.team/challenges/40 | 
 | [halbornctf solana](HalbornCTF_Rust_Solana/) | Halborn | https://github.com/HalbornSecurity/CTFs/tree/master/HalbornCTF_Rust_Solana |
 | [moar-horse-5](moar-horse-5/) | kfb | https://ctf.tjctf.org/challs |
+| [cashio-exploit-workshop](cashio-exploit-workshop/) |PwnedNoMore| https://github.com/PwnedNoMore/cashio-exploit-workshop|
 
 
 
