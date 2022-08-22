@@ -1,0 +1,15 @@
+[package]
+name = "brrr-shim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anchor-lang = "0.24.2"
+anchor-spl = "0.24.2"
+
+arrow-sunny = "0.3.1"
+bankman = "0.3.1"
+crate-token = "0.6.0"
+stable-swap-anchor = "^1.7"
