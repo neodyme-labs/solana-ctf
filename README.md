@@ -8,10 +8,7 @@ If an author would like their challenge to be removed from this repository, plea
 ## Challenges
 | Challenge | Author | Link |
 | --- | --- | --- |
-| [Neodyme Workshop Level 1](neodyme-breakpoint-workshop/level1/) | Neodyme | https://workshop.neodyme.io/level1.html |
-| [Neodyme Workshop Level 2](neodyme-breakpoint-workshop/level2/) | Neodyme | https://workshop.neodyme.io/level2.html |
-| [Neodyme Workshop Level 3](neodyme-breakpoint-workshop/level3/) | Neodyme | https://workshop.neodyme.io/level3.html |
-| [Neodyme Workshop Level 4](neodyme-breakpoint-workshop/level4/) | Neodyme | https://workshop.neodyme.io/level4.html |
+| [Neodyme Workshop Level 1-4](neodyme-breakpoint-workshop/level1/) | Neodyme | https://workshop.neodyme.io/ |
 | [Secret Store](allesctf21/secret-store/) | localo | https://ctftime.org/task/17180 | 
 | [Legit Bank](allesctf21/legit-bank/) | CherryWorm, bennofs | https://ctftime.org/task/17188 |
 | [Bugchain](allesctf21/bugchain/) | CherryWorm | https://ctftime.org/task/17160 | 
