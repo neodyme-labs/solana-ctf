@@ -17,6 +17,9 @@ use solana_sdk::{
 };
 use spl_associated_token_account::get_associated_token_address;
 
+use solana_transaction_status::UiTransactionEncoding;
+
+
 pub mod flag_program {
     use solana_sdk::declare_id;
 
@@ -286,7 +289,7 @@ fn get_flag(client: &RpcClient, fee_payer: &Keypair, args: GetFlagArgs) {
         &[fee_payer],
         blockhash,
     );
-    client
+    let sig = client
         .send_and_confirm_transaction_with_spinner_and_config(
             &tx,
             CommitmentConfig::finalized(),
@@ -296,6 +299,12 @@ fn get_flag(client: &RpcClient, fee_payer: &Keypair, args: GetFlagArgs) {
             },
         )
         .expect("send flag tx");
+
+    let tt = client
+        .get_transaction(&sig, UiTransactionEncoding::Json)
+        .unwrap();
+    dbg!(tt.transaction.meta.unwrap().log_messages);
+
 }
 
 /// Simple function to replace ~ by homedir (hacky)

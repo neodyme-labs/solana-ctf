@@ -6,7 +6,7 @@ challenges: "legit-bank": {
 	category:       "Zoomer Crypto"
 	difficulty:     "Easy"
 	author:         "CherryWorm, bennofs"
-	broker:         "legit-bank",
+	broker:         "legit-bank"
 	brokerProtocol: "solana-explorer"
 
 	description: """
@@ -30,6 +30,25 @@ challenges: "legit-bank": {
 	`F1ag111111111111111111111111111111111111111`. The instruction data is ignored, the first account has to be a spl-token account that contains a flag token and the second
 	account has to be the owner of the token account. The second account needs to sign the transaction, to proof that you really got the flag.
 
+	Alternatively, use the provided CLI after building with `cargo build`:
+
+	`bank-cli -u http://localhost:1024 -k keys/rich-boi.json get-flag YOUR_FLAG_TOKEN_ACCOUNT -a keys/rich-boi.json`
+
+	Note that the docker image uses old versions that might not be compatible with what you're running.
+	If you're having issues, try rust version 1.59 and the following dependencies:
+
+	```
+	[dependencies]
+	poc-framework = "=0.1.6"
+	spl-token = "=3.2.0"
+	```
+
+	```
+	rustup install 1.59
+	rustup run 1.59 cargo build
+	```
+
+
 	A good starting point is the Solana documentation:
 	- [https://docs.solana.com/developing/programming-model/overview](https://docs.solana.com/developing/programming-model/overview)
 	- [https://spl.solana.com/token#operational-overview](https://docs.solana.com/developing/programming-model/overview)
@@ -41,7 +60,7 @@ challenges: "legit-bank": {
 	files: [
 		{
 			name:      "legit-bank.zip"
-			sha256sum: "7d94a2ec1271af5dcdf36e45980908c78a3edea5a777afd335a1709bf4b91890"
+			sha256sum: "d041723181d68d9d8ea2acb9471b28e6362b4a0f0660e66f6494c2b71f965fb1"
 		},
 	]
 }

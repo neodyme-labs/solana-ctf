@@ -11,6 +11,7 @@ solana-sdk = "1.7.10"
 solana-core = "1.7.10"
 solana-program = "1.7.10"
 solana-streamer = "1.7.10"
+solana-transaction-status = "1.7.10"
 spl-associated-token-account = "1.0.3"
 spl-token = "*"
 

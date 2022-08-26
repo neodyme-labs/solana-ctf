@@ -219,6 +219,7 @@ dependencies = [
  "solana-program",
  "solana-sdk",
  "solana-streamer",
+ "solana-transaction-status",
  "spl-associated-token-account",
  "spl-token",
 ]
